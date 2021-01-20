@@ -119,14 +119,14 @@ public class Assignment2Q7 {
     		System.out.println("Enter number of candies");
     		int quantity = 0;
 			if(scan.hasNext())
-					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     		Candy can = new Candy();
     		System.out.println(can.addCandies(quantity));
     	}else if(choice == 2) {
     		System.out.println("Enter number of cookies");
     		int quantity = 0;
 			if(scan.hasNext())
-					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     		Cookie cok = new Cookie();
     		System.out.println(cok.addCookies(quantity));
     	}
@@ -134,7 +134,7 @@ public class Assignment2Q7 {
     		System.out.println("Enter number of ice creams");
     		int quantity = 0;
 			if(scan.hasNext())
-					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     		IceCream ice = new IceCream();
     		System.out.println(ice.addIceCreams(quantity));
     	}
@@ -175,7 +175,7 @@ public class Assignment2Q7 {
     		try {
     			int quantity = 0;
     			if(scan.hasNext())
-    					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     			obj = new Candy();
     			int cash = quantity*obj.getCost();
     			System.out.println("Pay: "+cash);
@@ -188,7 +188,7 @@ public class Assignment2Q7 {
     		try {
     			int quantity = 0;
     			if(scan.hasNext())
-    					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     			obj = new Cookie();
     			int cash = quantity*obj.getCost();
     			System.out.println("Pay: "+cash);
@@ -201,7 +201,7 @@ public class Assignment2Q7 {
     		try {
     			int quantity = 0;
     			if(scan.hasNext())
-    					quantity = scan.nextInt();
+				quantity = scan.nextInt();
     			obj = new IceCream();
     			int cash = quantity*obj.getCost();
     			System.out.println("Pay: "+cash);
