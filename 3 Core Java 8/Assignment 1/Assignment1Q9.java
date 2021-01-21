@@ -28,8 +28,26 @@ class Student {
 		return (stu1+stu2+stu3)/3;
 		}
     public int[] subjectWiseMarks(Student[] students,String subjectName) {
+    	int subject = subjectA;
+    	int[] subMarks =new int[3];
+    	if(subjectName.equalsIgnoreCase("subjectA")) {
+    		///subject = subjectA;
+    		for(int i=0;i<3;i++) {
+    			subMarks[i] = students[i].subjectA;
+    		}
+    	}else if(subjectName.equalsIgnoreCase("subjectB")) {
+    		//subject = subjectB;
+    		for(int i=0;i<3;i++) {
+    			subMarks[i] = students[i].subjectB;
+    		}
+    	}else {
+    		//subject = subjectC;
+    		for(int i=0;i<3;i++) {
+    			subMarks[i] = students[i].subjectC;
+    		}
+    	}
     	
-		return null;
+		return subMarks;
 		}
     public int subjectATotalByStudents(int[] marks) {
     	/*int subjectAT = marks[0]+marks[3]+marks[6];
