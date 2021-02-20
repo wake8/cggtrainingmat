@@ -1,0 +1,7 @@
+select{
+  border: 3px solid blue;
+  padding:10px 10px 10px 10px;
+}
+.bt button{
+  background: orange;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./css/master.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="formdiv">
+      <form class="form1">
+        <div>
+          <label for="name">Full name</label>
+          <input type="text" name="fullname" id="name">
+        </div>
+        <div>
+          <label for="mail">Email</label>
+          <input type="Email" name="mailid" id="mail">
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input type="text" name="City" id="city">
+        </div>
+        <div>
+          Gender
+          <input type="radio" name="gender" id="male" value="male">
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" value="female">
+          <label for="female">Female</label>
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" min="15" max="100">
+        </div>
+        <div>
+          Languages Known
+          <div class="see">
+            <select name="langs" multiple>
+              <option value="Telugu">Telugu</option>
+              <option value="Hindi">Hiindi</option>
+              <option value="Urdu">Urdu</option>
+              <option value="Punjabi">Punjabi</option>
+              <option value="Tamil">Tamil</option>
+              <option value="English">English</option>
+              <option value="Japanese">Japanese</option>
+              <option value="Espanol">Espanol</option>
+            </select>
+
+          </div>
+        </div>
+        <div class="bt">
+          <button type="Submit" name="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
