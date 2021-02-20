@@ -1,0 +1,51 @@
+#showcase{
+  background-image: url("../img/01.jpg");
+  /*parallax effect*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  height: 400px;
+  background-origin: content-box;
+  text-align: center;
+  margin-top: -15px;
+}
+#showcase h2{
+  padding: 40px;
+}
+.container{
+  margin:auto;
+  width: 80%;
+  overflow: hidden;
+  text-align: center;
+}
+header{
+  background: #52615f;
+  color: #ffffff;
+  border-bottom: 3px solid red;
+  margin:0;
+  padding:0px;
+}
+.button_1 {
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  width: 100px;
+  height:50px;
+   border: 2px solid #4CAF50;
+}
+
+.button_1:hover {
+  background-color: green;
+  color: white;
+}
+.leftDiv{
+  float: left;
+  width: 50%;
+}
+.rightDiv{
+  float: right;
+  width: 50%;
+}
+.devStates{
+  width: 100%;
+}
