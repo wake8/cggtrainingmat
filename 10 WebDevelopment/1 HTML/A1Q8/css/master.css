@@ -1,0 +1,12 @@
+body table td{
+  border: solid;
+}
+#top{
+  background: violet;
+}
+#left{
+  background: grey;
+}
+#right{
+  background: #0fff0f;
+}

@@ -1,0 +1,15 @@
+body table td{
+  border: solid;
+}
+#topleft{
+  background: violet;
+}
+#topleft{
+  background: grey;
+}
+#left{
+  background: grey;
+}
+#right{
+  background: #0fff0f;
+}
