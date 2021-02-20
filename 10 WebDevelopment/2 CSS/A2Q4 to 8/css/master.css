@@ -1,0 +1,32 @@
+body a{
+  color: red;
+}
+body table{
+  border-collapse:collapse
+}
+.table6, .table6 td, .table6 th{
+  border-color: green;
+  border-style: solid;
+}
+.table6 th{
+  background: green;
+}
+#seven{
+  border:2px solid orange;
+  outline-color:green;
+  outline-style: dotted;
+  padding-top: 10;
+  padding-bottom: 10;
+}
+#f, #s, #t{
+  background: #03fcd7;
+}
+#f{
+  border:3px solid black;
+}
+#s{
+  border:2px solid black;
+}
+#t{
+  border:1px solid black;
+}
