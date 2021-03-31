@@ -1,0 +1,5 @@
+package com.vunnam.controller;
+
+public class RabbitMQDirectWebController {
+
+}

@@ -1,0 +1,5 @@
+package com.vunnam.model;
+
+public class Customer {
+
+}

@@ -1,0 +1,12 @@
+package com.vunnam.listener;
+
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CustomerQueueListener {
+	@RabbitListener(queues = "adminQueue")
+	public void customerListener(String cust) {
+		System.out.println(cust);
+	}
+}

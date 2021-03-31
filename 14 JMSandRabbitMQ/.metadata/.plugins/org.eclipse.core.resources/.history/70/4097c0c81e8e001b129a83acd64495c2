@@ -1,0 +1,5 @@
+package com.vunnam.Config;
+
+public class MessagingConfig {
+
+}

@@ -1,0 +1,5 @@
+package com.vunnam.listener;
+
+public class CustomerQueueListener {
+
+}

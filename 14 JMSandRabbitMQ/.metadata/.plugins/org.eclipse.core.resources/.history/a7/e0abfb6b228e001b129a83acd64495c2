@@ -1,0 +1,5 @@
+package com.vunnam.Consumer;
+
+public class CustomerNotificationListener {
+
+}

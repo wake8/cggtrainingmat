@@ -1,0 +1,7 @@
+package com.vunnam.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MyJpaReo extends JpaRepository<T, ID> {
+
+}

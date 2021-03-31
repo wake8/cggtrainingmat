@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Chowdary\Capgemini\EclipseWorkSpaces\JMSandRabbitMQ\.metadata\.plugins\org.eclipse.jdt.core
+2573244349.index
+703491593.index
+2770792113.index

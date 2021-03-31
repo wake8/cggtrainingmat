@@ -1,0 +1,27 @@
+package com.vunnam.listener;
+
+import org.apache.tomcat.util.json.JSONParser;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.vunnam.config.RabbitMQDirectConfig;
+import com.vunnam.model.Customer;
+
+@Component
+public class CustomerQueueListener {
+	
+	@Autowired
+	private AmqpTemplate template;
+	
+	@Autowired
+	private RabbitMQDirectConfig config;
+	
+	@RabbitListener(queues = "adminQueue")
+	public void customerListener(String cust) {
+		Customer cust12 = (Customer) template.receiveAndConvert("adminQueue");
+		System.out.println(cust12.getEmail());
+	}
+}

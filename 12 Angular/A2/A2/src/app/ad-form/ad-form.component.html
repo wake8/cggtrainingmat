@@ -1,0 +1,25 @@
+<h2 class="container-fluid">Welcome to Ad form</h2>
+<form #adForm="ngForm" (ngSubmit)="onSubmit()" class="container-fluid">
+    {{adForm.value | json}}
+    <hr>
+    {{AdsModel | json}}
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" [(ngModel)]="AdsModel.title" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" [(ngModel)]="AdsModel.name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="category">Category</label>
+        <select name="category" id="category" [(ngModel)]="AdsModel.category">
+            <option *ngFor="let category of categories" value={{category}}>{{category}}</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="desc">Description</label>
+        <input type="text" name="description" id="desc" [(ngModel)]="AdsModel.description" class="form-control">
+    </div>
+    <button class="btn btn-secondary" type="submit">Submit Details</button>
+</form>
